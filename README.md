@@ -25,7 +25,7 @@ Ravena-Gabs-Site/
 - `galeria.html` — galeria de imagens e área de vídeos/TikTok.
 - `assets/css/style.css` — estilos, responsividade e efeitos visuais.
 - `assets/js/app.js` — cursor personalizado e lightbox da galeria.
-
+ link page:https://thmicrosoft.github.io/ravena/
 
 ## Fontes públicas
 
