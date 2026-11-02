@@ -1,0 +1,4 @@
+const dot=document.querySelector('.cursor-dot'),ring=document.querySelector('.cursor-ring');
+window.addEventListener('mousemove',e=>{if(dot){dot.style.left=e.clientX+'px';dot.style.top=e.clientY+'px'} if(ring){ring.style.left=e.clientX+'px';ring.style.top=e.clientY+'px'}});
+document.querySelectorAll('a,button,img').forEach(el=>{el.addEventListener('mouseenter',()=>document.body.classList.add('hovering'));el.addEventListener('mouseleave',()=>document.body.classList.remove('hovering'))});
+const lb=document.querySelector('.lightbox'); if(lb){const im=lb.querySelector('img'); document.querySelectorAll('.gallery figure img').forEach(x=>x.addEventListener('click',()=>{im.src=x.src;lb.classList.add('open')}));lb.addEventListener('click',e=>{if(e.target===lb||e.target.tagName==='BUTTON')lb.classList.remove('open')});}
